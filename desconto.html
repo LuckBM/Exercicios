@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var preço = prompt("Preço");
+        var desconto = preço*10/100;
+        var desconto2 = preço*5/100;
+        var despe = preço-desconto;
+        var despe2 = preço-desconto2;
+        
+        preço = parseFloat(preço);
+
+        document.write("Valor Bruto: R$"+preço+"<br>");
+
+        if (preço >= 100) { 
+    document.write("Desconto de: R$"+desconto+"<br>");
+    
+    document.write("Valor com Desconto: R$"+despe);} 
+        
+        else { 
+    document.write("Desconto de: R$"+desconto2+"<br>");
+    
+    document.write("Valor com Desconto: R$"+despe2);} 
+
+    </script>
+
+
+    
+</body>
+</html>

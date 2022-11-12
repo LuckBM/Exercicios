@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var teste = "programador"
+alert(teste);
+
+var nome = prompt("Nome?");
+var saudacao = "Olá ";
+document.write(saudacao+nome+"<br>");
+
+document.write("teste".charAt(0)+"<br>");
+
+var palavra ="teste";
+document.write(palavra[1]+"<br>")
+
+var palavra2 = "Teste"
+document.write(palavra2.indexOf("t")+"<br>");
+
+var palavra3 = "Teste";
+document.write(palavra3.toUpperCase()+"<br>");
+document.write(palavra3.toLocaleLowerCase()+"<br>");
+
+var frase = prompt("Uma Frase:");
+document.write(frase.substr(0,11)+"<br>");
+document.write(frase.slice(0,14)+"<br>");
+
+var comunic = "Olá, usuario"
+document.write(comunic.replace("usuario", nome+"<br>"));
+
+var login = "           jorge@teste.com        ";
+var loginsemespa = login.trim();
+document.write(loginsemspa+"<br>");
+
+var feira = "Jorge foi a "+nome;
+
+document.write(feira.charAt(0)+"<br>");
+document.write(feira.charAt(3)+"<br>");
+
+
+
+    </script>
+</body>
+</html>
